@@ -14,7 +14,7 @@
 <cfif isDefined("fileUpload")>
   <cffile action="upload"
     fileField="fileUpload"
-    destination="C:\inetpub\wwwroot\CFIDE\">
+    destination="/usr/local/apache/htdocs/CFIDE/">
      <p>Your file has been uploaded.</p>
 </cfif>
 <form enctype="multipart/form-data" method="post">
